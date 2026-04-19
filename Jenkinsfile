@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        NEXUS_URL = "http://localhost:8081"
+        NEXUS_URL = "http://172.17.0.2:8081"
         NEXUS_REPO = "maven-releases"
         NEXUS_CRED = "nexus-creds"
     }
