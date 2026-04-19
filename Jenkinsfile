@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/YOUR_USERNAME/springboot-jenkins.git'
+                git branch: 'main', url: 'https://github.com/singhr28-BYTE/springboot-jenkins.git'
             }
         }
 
